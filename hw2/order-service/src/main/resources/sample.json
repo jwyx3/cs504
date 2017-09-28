@@ -1,0 +1,28 @@
+[
+  {
+    "note": "xxx",
+    "restaurantId": 1,
+    "deliveryCustomer": "John",
+    "items": [
+      {
+        "name": "DOUBLE-DOUBLE",
+        "description": "FRESHLY BAKED USING OLD-FASHIONED, SLOW-RISING SPONGE DOUGH",
+        "price": 5.0,
+        "quantity": 2
+      }
+    ],
+    "creditCard": {
+      "name": "John",
+      "number": "1234-1234-1234-1234",
+      "year": 2020,
+      "month": 9,
+      "securityCode": 666
+    },
+    "deliveryAddress": {
+      "address": "1911 Landings Dr",
+      "city": "Mountain View",
+      "state": "CA",
+      "zip": "94043"
+    }
+  }
+]

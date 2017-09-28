@@ -1,0 +1,20 @@
+rabbitmq:
+  image: rabbitmq:3.6.1-management
+  name: rabbitmq
+  ports:
+    - "5672:5672"
+    - "15672:15672"
+
+mysql:
+  image: mysql:5.6.37
+  name: mysql
+  ports:
+    - "3306:3306"
+  environment:
+    - MYSQL_ROOT_PASSWORD=mypass
+
+mongodb:
+  image: mongo:3.4.4
+  name: mongodb
+  ports:
+    - "27017:27017"

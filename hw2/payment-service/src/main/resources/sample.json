@@ -1,0 +1,12 @@
+[
+  {
+    "orderId": "123",
+    "price": "20",
+    "creditCard": {
+      "year": 2020,
+      "month": 9,
+      "number": "1234-1234-1234-1234",
+      "securityCode": 666
+    }
+  }
+]

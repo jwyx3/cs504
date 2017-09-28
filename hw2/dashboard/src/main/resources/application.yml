@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: dashboard
+zuul:
+  routes:
+    order-service:
+      path: /order-service/**
+      serviceId: order-service
+    restaurant-service:
+      path: /restaurant-service/**
+      serviceId: restaurant-service
+    payment-service:
+      path: /payment-service/**
+      serviceId: payment-service

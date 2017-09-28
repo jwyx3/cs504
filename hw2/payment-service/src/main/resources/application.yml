@@ -1,0 +1,18 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: payment-service
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/payment_service
+    username: springuser
+    password: ThePassword
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: payments

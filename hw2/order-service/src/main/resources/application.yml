@@ -1,0 +1,11 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: order-service
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: payments
+          content-type: application/json

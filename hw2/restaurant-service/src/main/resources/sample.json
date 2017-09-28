@@ -1,0 +1,46 @@
+[
+  {
+    "name": "In-N-Out Burger",
+    "description": "In-N-Out Burger",
+    "items": [
+      {
+        "name": "DOUBLE-DOUBLE",
+        "description": "FRESHLY BAKED USING OLD-FASHIONED, SLOW-RISING SPONGE DOUGH",
+        "price": 5.0
+      },
+      {
+        "name": "CHEESEBURGER",
+        "description": "FRESHLY BAKED USING OLD-FASHIONED, SLOW-RISING SPONGE DOUGH",
+        "price": 4.0
+      }
+    ],
+    "address": {
+      "address": "604 E El Camino Real",
+      "city": "Sunnyvale",
+      "state": "CA",
+      "zip": "94087"
+    }
+  },
+  {
+    "name": "Jack in the Box",
+    "description": "Jack in the Box",
+    "items": [
+      {
+        "name": "CLASSIC BUTTERY JACK",
+        "description": "CLASSIC BUTTERY JACK",
+        "price": 3.0
+      },
+      {
+        "name": "BACON & SWISS BUTTERY JACK",
+        "description": "BACON & SWISS BUTTERY JACK",
+        "price": 3.5
+      }
+    ],
+    "address": {
+      "address": "3395 Stevens Creek Blvd",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95117"
+    }
+  }
+]
